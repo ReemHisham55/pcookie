@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In</title>
+    <link rel="icon" type="image/png" href="images/cookie.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-cookie-bite icon-cookie"></i> PCookie</a>
+
+      <ul class="nav-links">
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="join.html">Join Recipes Team</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="index.html#about">About</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Search...">
+        </div>
+
+        <div class="auth-buttons">
+          <a href="login.html" class="btn-login">Login</a>
+          <a href="signup.html" class="btn-signup">signup</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="auth-page">
+    <div class="auth-container">
+      <h1 class="auth-title">Welcome Back</h1>
+      <p class="auth-subtitle">Please enter your details to log in.</p>
+
+      <form class="auth-form">
+        <div class="floating-group">
+          <input type="email" id="loginEmail" placeholder=" " required>
+          <label for="loginEmail">Email Address</label>
+        </div>
+
+        <div class="floating-group">
+          <input type="password" id="loginPassword" placeholder=" " required>
+          <label for="loginPassword">Password</label>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="remember">
+          <label for="remember">Remember me</label>
+        </div>
+
+        <button type="submit" class="auth-btn">Log In</button>
+      </form>
+
+      <p class="auth-footer">
+        Don't have an account? <a href="signup.html">Sign up</a>
+      </p>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="modern-footer">
+    <div class="footer-copyright">
+      <p>&copy; 2026 PCookie. All rights reserved. Made with Nexus</p>
+    </div>
+  </footer>
+</body>
+
+</html>

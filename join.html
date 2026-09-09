@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Our Team </title>
+    <link rel="icon" type="image/png" href="images/cookie.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-cookie-bite icon-cookie"></i> PCookie</a>
+
+      <ul class="nav-links">
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="join.html">Join Recipes Team</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="index.html#about">About</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Search...">
+        </div>
+
+        <div class="auth-buttons">
+          <a href="login.html" class="btn-login">Login</a>
+          <a href="signup.html" class="btn-signup">signup</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="join-team-section">
+    <h2 class="join-title">Join Our Recipes Team </h2>
+    <p class="join-subtitle">Love baking or food photography? Join our amazing team and share your passion!</p>
+
+    <div class="join-card">
+      <form class="join-form">
+
+        <div class="input-group">
+          <input type="text" id="fullname" placeholder=" " required>
+          <label for="fullname">Full Name</label>
+        </div>
+
+        <div class="input-group">
+          <input type="email" id="email" placeholder="" required>
+          <label for="email">Email Address</label>
+        </div>
+
+        <div class="input-group">
+          <input type="text" id="experience" placeholder="">
+          <label for="experience">Experience (e.g., 2 years baking)</label>
+        </div>
+
+        <div class="input-group select-group">
+          <select id="role" required>
+            <option value="" disabled selected hidden>Select your role</option>
+            <option value="baker">Baker / Chef</option>
+            <option value="photographer">Food Photographer</option>
+            <option value="writer">Recipe Writer</option>
+          </select>
+          <label for="role">Role</label>
+        </div>
+
+        <button type="submit" class="join-btn">Join Team</button>
+
+      </form>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="modern-footer">
+    <div class="footer-copyright">
+      <p>&copy; 2026 PCookie. All rights reserved. Made with Nexus</p>
+    </div>
+  </footer>
+</body>
+
+</html>
